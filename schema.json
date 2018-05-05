@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "marvel fun fact",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetFunFactIntent",
+                    "slots": [
+                        {
+                            "name": "Character",
+                            "type": "AMAZON.FictionalCharacter"
+                        }
+                    ],
+                    "samples": [
+                        "tell me a fact",
+                        "give me {Character} facts",
+                        "tell me {Character} facts",
+                        "what are some facts about {Character}",
+                        "give me some fun facts about {Character}",
+                        "tell me some fun facts about {Character}",
+                        "give me some facts about {Character}",
+                        "tell me some facts about {Character}",
+                        "give me a fact about {Character}",
+                        "tell me a fact about {Character}",
+                        "tell a marvel fun fact",
+                        "tell me a fact about marvel",
+                        "tell me a fun fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
